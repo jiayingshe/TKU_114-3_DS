@@ -9,7 +9,6 @@ public class Q01_ArrayListCleanup {
         System.out.println("移除筆數 : " + removed);
         System.out.println("保留資料 : " + scores);
     }
-
     public static int removeBelow(ArrayList<Integer> scores, int minimum) {
         int removed = 0;
         for (int index = scores.size() - 1; index >= 0; index--) {
